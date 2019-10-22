@@ -22,4 +22,4 @@ bot.on("message", (message) => {
     message.channel.send("<@&634139725128531968> Atacamos con minis, gruta y/o episodio. No olvides confirmar el ataque a continuación");
   }
 });
-bot.login(config.token);       
+bot.login(process.env.token);       
